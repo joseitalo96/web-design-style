@@ -1,0 +1,119 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;
+    color: #404242;
+    font-size: 30px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    color: #0C2427;
+    font-size: 23px;
+    font-family: 'Cairo', sans-serif;
+}
+
+p { 
+    color: #181E34;
+    font-size: 20px; 
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+
+ul li { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    list-style-type: square;
+}
+
+/* section div specification*/
+
+.section-div {
+    border: 2px solid darkslategray;
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.color-section {
+    width: 350px;
+    height: 100px;
+    padding: 10px 5px 15px 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.example-div {
+    text-align: center;
+    display: inline-block;
+}
+
+/* color section */
+
+#color1 {
+    background-color: #521E34;
+    /* color: dark violet */
+}
+
+#color1 > p {
+    color: #fff;
+}
+
+#color2 { 
+    background-color:#C4A5DF;
+    /* sky violet */
+}
+
+#color2 > p {
+    color: #413e3e;
+}
+
+#color3 {
+    background-color: #B04E64;
+    /* brick violet */
+}
+
+#color3 > p {
+    color: #fff;
+}
+
+#color4 {
+    background-color: #644B78;
+    /* blue violet */
+}
+
+#color4 > p {
+    color: #fff;
+}
+
+/* font section */
+
+h3.font-section {
+    text-decoration: underline;
+    font-size: 25px;
+}
+  
+.font1 {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.font2 {
+    font-family: 'Cairo', sans-serif;
+}
+
+.font3 {
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.italic {
+    font-style: italic;
+}
+
